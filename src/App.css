@@ -1,13 +1,17 @@
 .App {
+  display: flex;
+  justify-content: center;
+}
+
+.App div p {
   text-align: center;
-  padding: 1rem;
-  margin: 0.2rem;
-}
-
-.header-class {
-   color: orange;
-   text-align: center;
+  font-size: 60px;
 }
 
 
+button {
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+}
 
