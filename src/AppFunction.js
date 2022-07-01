@@ -20,11 +20,11 @@ const App = () => {
   return (
     <div className="App">
       <div>
-         <p>{count}</p>
+         <p id='counter-value'>{count}</p>
 
-         <button onClick={increment}>Increment</button>
-         <button onClick={decrement}>Decrement</button>
-         <button onClick={reset}>Reset</button>
+         <button id='increase-button' onClick={increment}>Increment</button>
+         <button id='decrease-button' onClick={decrement}>Decrement</button>
+         <button id='reset-button' onClick={reset}>Reset</button>
       </div>
     </div>          
   )
